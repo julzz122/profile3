@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+header{
+    margin: 10px 0; /* Memberi jarak vertikal antar elemen 10px */
+    width: calc(100% - 40px); /* Sesuaikan lebar dengan margin */
+    padding: 20px;
+    }
+nav a {
+        margin: 5px;
+        text-decoration: none;
+        color: #1a73e8;
+}
+.divider {
+    border: 0; /* Menghilangkan border default */
+    height: 2px; /* Ketebalan garis */
+    background-color: #000; /* Warna garis */
+    margin-top: 0; /* Menghilangkan ruang di atas */
+    margin-bottom: 20px; /* Ruang di bawah garis */
+}
+.divider2 {
+    border: 0; /* Menghilangkan border default */
+    height: 4px; /* Ketebalan garis */
+    background-color: #000; /* Warna garis */
+    margin-top: 0; /* Menghilangkan ruang di atas */
+    margin-bottom: 20px; /* Ruang di bawah garis */
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color: #fff;
+}

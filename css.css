@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
+    padding: 0;
+}
+.header{
+    margin: 10px 0; /* Memberi jarak vertikal antar elemen 10px */
+    width: calc(100% - 40px); /* Sesuaikan lebar dengan margin */
+    padding: 30px;
+    }
+nav a {
+        margin: 5px;
+        text-decoration: none;
+        color: #1a73e8;
+}
+.profile {
+    text-align: center; /* Mengatur teks agar center */
+}
+
+.profile-pic {
+    width: 150px;       /* Sesuaikan lebar gambar */
+    height: 150px;      /* Sesuaikan tinggi gambar */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover;  /* Memastikan gambar tidak terdistorsi */
+}
+.job-title {
+    text-align: center; /* Sesuaikan posisi teks jika perlu */
+    margin-bottom: 10px; /* Ruang di bawah judul */
+}
+
+.divider {
+    border: 0; /* Menghilangkan border default */
+    height: 2px; /* Ketebalan garis */
+    background-color: #000; /* Warna garis */
+    margin-top: 0; /* Menghilangkan ruang di atas */
+    margin-bottom: 20px; /* Ruang di bawah garis */
+}
+.divider2 {
+    border: 0; /* Menghilangkan border default */
+    height: 4px; /* Ketebalan garis */
+    background-color: #000; /* Warna garis */
+    margin-top: 0; /* Menghilangkan ruang di atas */
+    margin-bottom: 20px; /* Ruang di bawah garis */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.overview, .skills-experience {
+    margin: 20px 0;
+    text-align: center;
+}
+
+hr {
+    border: 3px solid black; /* Mengatur garis di dalam konten */
+    margin: 20px;
+}
+.skills, .experience {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    border: solid;
+    margin-bottom: 20px;
+    background-color: aqua;
+    color: rgb(37, 57, 50);
+}
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}

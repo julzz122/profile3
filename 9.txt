@@ -1,0 +1,27 @@
+document.getElementById("registerForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    
+    if (username && email && password) {
+        localStorage.setItem("username", username);
+        localStorage.setItem("email", email);
+        localStorage.setItem("password", password);
+        document.getElementById("message").innerText = "Pendaftaran berhasil! Mengalihkan ke halaman login...";
+        document.getElementById("message").style.color = "#28a745";
+        setTimeout(() => {
+            window.location.href = "efek loading.html";
+        }, 2000);
+    } else {
+        document.getElementById("message").innerText = "Harap isi semua bidang!";
+        document.getElementById("message").style.color = "#d9534f";
+    }
+
+    function logout() {
+        alert("Anda telah berhasil logout.");
+        window.location.href = "login.html"; // Redirect ke halaman login
+    }
+    
+});
